@@ -4,8 +4,8 @@
   "scripts": {
     "ng": "ng",
     "build:platform": "ng build platform-terminal",
-    "link:platform": "npm link platform-terminal",
-    "test": "ng test",
+    "link:platform": "npm link dist/platform-terminal && npm link platform-terminal",
+        "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
     "postinstall": "npm run link:platform"
