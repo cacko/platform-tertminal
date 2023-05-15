@@ -1,10 +1,10 @@
 {
-  "name": "ngx-console",
-  "version": "0.1.0",
+  "name": "platform-terminal",
+  "version": "0.1.1",
   "scripts": {
     "ng": "ng",
     "build:platform": "ng build platform-terminal",
-    "link:platform": "npm link dist/platform-terminal && npm link platform-terminal",
+    "link:platform": "npm link platform-terminal",
         "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
