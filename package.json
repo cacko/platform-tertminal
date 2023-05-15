@@ -4,7 +4,7 @@
   "scripts": {
     "ng": "ng",
     "build:platform": "ng build platform-terminal",
-    "link:platform": "npm link dist/platform-terminal ",
+    "link:platform": "npm link platform-terminal",
     "build": "ngc -p projects/playground/tsconfig.app.json",
     "test": "ng test",
     "lint": "ng lint",
